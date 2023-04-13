@@ -1,0 +1,34 @@
+.elemento-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    margin: 0.6rem 0.3rem;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.elemento-container:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.n-atomico {
+    text-align: start;
+}
+
+.simbolo {
+    font-size: 1.5rem; /* Alterado para unidade relativa */
+    font-weight: 900;
+    text-align: center;
+}
+
+.nome, .massa {
+    text-align: center;
+}

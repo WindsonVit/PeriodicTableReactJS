@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #f1eadd;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.centralizar{
+  position: absolute;
+  transform: translateX(40%);
+  margin-top: 1rem;
+}
+
+.ajuda-img{
+  width: 801px;
+  height: 248px;
+}
+
+.ajuda{
+  display: flex;
+}
+
+span{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.metal-representativo, .metais-de-transiçao-externa, .lantanídeos, .actinídeos, .nao-metais, .gases-nobres, .hidrogenio{
+  width: 22px;
+  height: 22px;
+}
+
+.metal-representativo{
+  background-color: #d1202d;
+}
+
+.metais-de-transiçao-externa{
+  background-color: #9bbfe2;
+}
+
+.lantanídeos{
+  background-color: #2796d2;
+}
+
+.actinídeos{
+  background-color: #76c8a9;
+}
+
+.nao-metais{
+  background-color: #f5a720;
+}
+
+.gases-nobres{
+  background-color: #7e5399;
+}
+
+.hidrogenio{
+  background-color: #697a83;
+}
+
